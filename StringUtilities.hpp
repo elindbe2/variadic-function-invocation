@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 #include <sstream>
 
@@ -26,8 +28,6 @@ struct remove_ref_and_const< T const >
 {
     typedef T type;
 };
-
-
 
 template < typename T >
 typename remove_ref_and_const<T>::type fromString( string const& str )

@@ -1,3 +1,8 @@
+#pragma once
+// This code was written by StackOverflow user Xeo and I'd like to
+// give him credit for this nice piece of code.  His twitter account
+// is @tweet_xeo if you'd like to contact him.
+
 #include <functional>
 #include <type_traits>
 #include <utility>
