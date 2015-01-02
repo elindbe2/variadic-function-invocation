@@ -1,0 +1,3 @@
+* Add license
+* Comment code better
+* Write documentation

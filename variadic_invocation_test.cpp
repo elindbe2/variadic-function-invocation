@@ -23,7 +23,7 @@ int main(int, char**)
 {
     cout << "begin" << endl;
 
-	auto invoker = Invoker<decltype(my_fn)>(my_fn);
+    auto invoker = Invoker<decltype(my_fn)>(my_fn);
 	auto invoker2 = Invoker<decltype(my_fn2)>(my_fn2);
     auto args = {string("1"), string("2"), string("3")};
 
